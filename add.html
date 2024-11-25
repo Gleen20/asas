@@ -1,0 +1,17 @@
+<title>Tambah Data Uang</title>
+</head>
+<body>
+    <h1>Tambah Data Uang</h1>
+    <form method="POST">
+        <label for="nama">Nama:</label>
+        <input type="text" name="nama" required>
+        <br>
+        <label for="jumlah">Jumlah:</label>
+        <input type="number" name="jumlah" required>
+        <br>
+        <button type="submit">Simpan</button>
+    </form>
+    <br>
+    <a href="{{ url_for('index') }}">Kembali</a>
+</body>
+</html>
